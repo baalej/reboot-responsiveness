@@ -155,6 +155,24 @@ span {
     background-color: #fff;
 }
 
+.dark-purple-invert {
+    color: #aa7580;
+}
+
+.dark-purple {
+    color: #000;
+    background-color: #aa7580;
+}
+
+.link-dark-purple {
+    padding: .16em;
+}
+
+.link-dark-purple:hover {
+    transition: .25s;
+    background-color: #aa7580;
+}
+
 .logos-box {
     display: flex;
     flex-wrap: wrap;
@@ -162,7 +180,8 @@ span {
 }
 
 .logo {
-    width: min(50%, 260px);
+    width: min(50%, 360px);
+    margin-top: 24px;
 }
 
 .logo-bottom {
@@ -197,13 +216,13 @@ a:visited {
     margin-top: 1em;
 }
 
-@media (max-width: 720px) {
+@media (max-width: 960px) {
     #content {
         width: calc(100% - calc(4vw + 40px));
     }
 }
 
-@media (min-width: 720px) {
+@media (min-width: 960px) {
     #content {
         width: 70%;
     }
